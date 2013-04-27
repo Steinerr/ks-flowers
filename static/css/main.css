@@ -33,6 +33,8 @@
 
 .block{
     margin: 10px 0;
+    margin: 10px 4px 0 10px !important;
+    padding-right: 10px
 }
 
 .row-image{
@@ -55,4 +57,29 @@
 
 .img-info{
     margin: 10px 0 0 10px;
+}
+
+.strip-price{
+    position: relative;
+    bottom: 95px;
+    left: 86px;
+    z-index: 2;
+}
+
+.price{
+    position: relative;
+    font-size: xx-large;
+    color: #ffffff;
+    text-shadow: #000000 0 0 7px;
+    background: url(/static/img/strip-price.png);
+    margin: -61px -180px 0px 77px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 200px;
+    background-repeat: no-repeat;
+}
+
+.price span{
+    font-size: large;
 }
