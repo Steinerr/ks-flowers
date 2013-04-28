@@ -7,12 +7,14 @@
             
             for($j=1; $j<=3; $j++){
                 // Блок с картинкой
-                echo '<div class="span4 block deb">';
-                echo '<img src="static/img/flowers/fl1.jpeg" class="image">';
-                echo '<p class="price">850 <span>руб.</span></p>';
-                //Блок с информаией о картинке
-                echo '<div class="img-info"><p><a href="#">Глупое название</a></p><p>Стоимость: <s>820 р.</s>/ 500 р.</p></div>';
-                echo '</div>';
+                    echo '<div class="span4 block">';
+                        echo '<img src="static/img/flowers/fl1.jpeg" class="image">';
+                        echo '<p class="price">850 <span>руб.</span></p>';
+                        echo '<div class="ending-price end-price"></div>';
+                        echo '<div class="ending-price home-price"></div>';
+                        //Блок с информаией о картинке
+                        echo '<div class="img-info"><p><a href="#">Глупое название</a></p><p>Стоимость: <s>820 р.</s>/ 500 р.</p></div>';
+                    echo '</div>';
             }
             
             echo '</div>';
@@ -28,9 +30,11 @@
             
             for($j=1; $j<=3; $j++){
                 // Блок с картинкой
-                    echo '<div class="span4 block deb">';
+                    echo '<div class="span4 block">';
                         echo '<img src="static/img/flowers/fl1.jpeg" class="image">';
                         echo '<p class="price">850 <span>руб.</span></p>';
+                        echo '<div class="ending-price end-price"></div>';
+                        echo '<div class="ending-price home-price"></div>';
                         //Блок с информаией о картинке
                         echo '<div class="img-info"><p><a href="#">Глупое название</a></p><p>Стоимость: <s>820 р.</s>/ 500 р.</p></div>';
                     echo '</div>';

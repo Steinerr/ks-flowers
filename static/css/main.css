@@ -56,7 +56,10 @@
 }
 
 .img-info{
-    margin: 10px 0 0 10px;
+    margin: 20px 0;
+    padding: 10px 0 5px 10px;
+    background-color: #f0fff0;
+    border-radius: 5px;
 }
 
 .strip-price{
@@ -71,15 +74,32 @@
     font-size: xx-large;
     color: #ffffff;
     text-shadow: #000000 0 0 7px;
-    background: url(/static/img/strip-price.png);
-    margin: -61px -180px 0px 77px;
+    background: url(/static/img/line-price.png);
+    margin: -83px 4px 0px 132px;
     text-align: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 200px;
-    background-repeat: no-repeat;
+    padding-top: 25px;
+    padding-bottom: 22px;
 }
 
 .price span{
     font-size: large;
+}
+
+.ending-price{
+    position: relative;
+    height: 60px;
+    width: 12px;
+    background: url(/static/img/ending-price80.png);
+}
+
+.end-price{    
+    background-position: 0px 0px;
+    margin: -62px 0 0 121px;
+    width: 11px;
+}
+
+.home-price{
+    width: 15px !important;
+    background-position: -13px 60px;
+    margin: -60px 0 0 254px;
 }
